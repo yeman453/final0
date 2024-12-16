@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  min-height: 100vh;
+  background-image: linear-gradient(to left, rgb(64, 77, 116), rgb(28, 45, 86));
+}
+.main-section .fancy-border-radius {
+  border-radius: 61% 39% 58% 42%/24% 75% 25% 76%;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, rgb(94, 235, 242), rgb(117, 125, 239));
+}
+
+.custom-shape-divider-bottom-1731036828 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1731036828 svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 79px;
+}
+
+.custom-shape-divider-bottom-1731036828 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.profile-section img {
+  width: 300px;
+  height: 420px;
+  border: 10px solid rgb(55, 48, 140);
+  box-shadow: -10px 10px, -10px 10px 20px;
+  border-radius: 6px;
+  transform: skewY(3deg);
+}
+.profile-section p {
+  padding-top: 10px;
+  text-indent: 2rem;
+  line-height: 2;
+}
+
+.card-section {
+  background-image: url(meeting-room.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.card-section .custom-card {
+  background-color: rgba(225, 225, 225, 0.7);
+  -webkit-backdrop-filter: blur(0.3rem);
+          backdrop-filter: blur(0.3rem);
+}
+
+.team-section .team-card {
+  height: 300px;
+  background-image: linear-gradient(45deg, rgb(197, 132, 108) 50%, rgb(142, 205, 202) 50%);
+}
+.team-section .team-card .box img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  inset: 0;
+  margin: 0 auto;
+  top: -25%;
+}
+.team-section .team-card .box img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  inset: 0;
+  margin: 0 auto;
+  top: -25%;
+}
+.team-section .team-card .box img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  inset: 0;
+  margin: 0 auto;
+  top: -25%;
+}
+.team-section .team-card .box img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  inset: 0;
+  margin: 0 auto;
+  top: -25%;
+}
+.team-section .team-card .box #img6 {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  inset: 0;
+  margin: 0 auto;
+  top: -25%;
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #383434;
+    align-items: center;
+  }
+  footer #first {
+    justify-content: start;
+  }
+  footer #first h4 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  footer #second {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 20px;
+  }
+  footer #second #facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(52, 52, 132);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 161, 237);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #viber {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 57, 197);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #message {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(60, 60, 187);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #383434;
+  }
+  footer #first h4 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  footer #second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  footer #second #facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(52, 52, 132);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 161, 237);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #viber {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 57, 197);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #message {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(60, 60, 187);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+@media (min-width: 991px) {
+  footer {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #383434;
+  }
+  footer #first {
+    display: flex;
+  }
+  footer #first h4 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  footer #second {
+    justify-content: end;
+    padding-top: 20px;
+  }
+  footer #second #facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(52, 52, 132);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 161, 237);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #viber {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(120, 57, 197);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  footer #second #message {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(60, 60, 187);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

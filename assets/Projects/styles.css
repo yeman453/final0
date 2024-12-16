@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Slab:wght@100..900&display=swap");
+body {
+  background-color: pink;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+#weather {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/weather.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#weather a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#to-do-list {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/to-do-list.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#to-do-list a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#quiz-app {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/quiz.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#quiz-app a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#random-pw {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/pw.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#random-pw a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#note {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/note.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#note a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#button {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/on-off.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#button a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+#game {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/images/MLBB\ Street\ Themed\ Squad\ \(1\).jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+}
+#game a {
+  position: absolute;
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  #weather {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/weather.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #weather a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  #to-do-list {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/to-do-list.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #to-do-list a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  #quiz-app {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/quiz.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #quiz-app a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  #random-pw {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/pw.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #random-pw a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 9px;
+    margin-top: 0;
+  }
+  #note {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/note.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #note a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  #button {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/on-off.jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #button a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  #game {
+    width: 120px;
+    height: 100px;
+    background-image: url(/assets/images/MLBB\ Street\ Themed\ Squad\ \(1\).jpg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #game a {
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 1.5px;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
